@@ -211,3 +211,58 @@ footer p{
     margin: 0;
     font-size: 0.9rem;
 }
+
+.showResponsive{
+    display: none;
+}
+
+@media screen and (max-width: 767px){
+    .showResponsive{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0.5rem;
+    }
+    header{
+        height: 23rem;
+    }
+    .theTitle{
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: 4rem;
+        text-shadow: 1px 1px 1px black;
+        color: white;
+        font-family: 'Libre Baskerville', 'Times New Roman', Times, serif;
+    }
+    
+    .subTitle{
+        font-size: 0.8rem;
+        max-width: 60rem;
+        text-align: center;
+        color: white;
+        text-shadow: 1px 1px 1px black;
+    }
+    header nav ul{
+        display: none;
+    }
+    #milkWay{        
+        height: auto;
+        padding: 3.5rem 1rem;
+    }
+    .special{
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+    .responsivel-txt{
+        font-size: 0.8rem;
+    }
+    .description{
+        padding: 1rem;
+    }
+    .flexible .content .icon{
+        margin-left: 38%;
+    }
+    .flexible{
+        margin: 1.5rem 0;
+    }
+}
